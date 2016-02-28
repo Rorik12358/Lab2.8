@@ -11,5 +11,8 @@ public class Main {
         Circle circle = new Circle("Green",10);
         System.out.println(circle);
         System.out.println("Shape area is: "+circle.calcArea());
+        Rectangle rectangle = new Rectangle("red", 11, 22);
+        System.out.println(rectangle);
+        System.out.println("Shape area is: "+rectangle.calcArea());
     }
 }
