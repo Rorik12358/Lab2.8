@@ -3,7 +3,7 @@ package com.brainacad.oop.testshapes;
 /**
  * Created by R2-D2 on 28.02.2016.
  */
-public abstract class Shape {
+public abstract class Shape implements Drawable{
     private String shapeColor;
 
     public Shape(String shapeColor) {
