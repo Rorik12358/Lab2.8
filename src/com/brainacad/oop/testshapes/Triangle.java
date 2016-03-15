@@ -18,7 +18,7 @@ public class Triangle extends Shape implements Comparable{
     @Override
     //“This is Triangle, color: BLACK, a=5, b=5, c=5”
     public String toString() {
-        return "This is Triangle, color: " + super.getShapeColor() + ", a=" + a + ", b=" + b + ", c=" + c;
+        return "This is Triangle, color: " + super.getShapeColor() + ", a=" + a + ", b=" + b + ", c=" + c; //don't need super keyword
     }
 
     @Override
@@ -29,7 +29,7 @@ public class Triangle extends Shape implements Comparable{
     @Override
     // This is Rectangle, color: RED, width=11, height=22,  area is: 242
     public void draw() {
-        System.out.println(this.toString()+" area is: "+calcArea());
+        System.out.println(this.toString()+" area is: "+calcArea()); //don't need this keyword
     }
 
     @Override
