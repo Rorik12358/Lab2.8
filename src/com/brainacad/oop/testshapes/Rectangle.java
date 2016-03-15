@@ -26,7 +26,7 @@ public class Rectangle extends Shape implements Comparable{
     @Override
     // This is Rectangle, color: RED, width=11, height=22,  area is: 242
     public void draw() {
-        System.out.println(this.toString()+" area is: "+calcArea());
+        System.out.println(this.toString()+" area is: "+calcArea());  //try to implement draw method in Shape class
     }
 
     @Override
