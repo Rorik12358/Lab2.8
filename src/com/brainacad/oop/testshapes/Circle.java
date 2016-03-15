@@ -19,7 +19,7 @@ public class Circle extends Shape implements Comparable{
     @Override
     public String toString() {
         //“This is Circle, color: GREEN, radius=22”
-        return "This is Circle, color: "+super.getShapeColor()+", radius="+radius;
+        return "This is Circle, color: "+super.getShapeColor()+", radius="+radius;  //you don't need super keyword
     }
 
     @Override
